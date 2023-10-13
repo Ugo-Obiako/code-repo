@@ -1,0 +1,168 @@
+/*styles for the Code 101 web page project*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    font-size: 100%;
+    font-family: Helvetica, verdana, arial, sans-serif;
+}
+
+#wrapper {
+    width: 940px;
+    background: beige;
+    margin: 0px auto;
+}
+
+section {
+    width: 30%;
+    background: whitesmoke;
+    margin: 0px auto;
+    float: right;
+    padding: 20px;
+}
+
+header {
+    width: auto;
+    margin: 10px;
+    background: #ddd;
+}
+
+nav {
+    height: 50px;
+    background: orange;
+    line-height: 50px;
+    }
+    
+nav ul {
+    list-style-type: none;
+    }
+
+nav ul li {
+    float: left;
+    text-align: center;
+    position: relative;
+    }
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-weight: 900;
+    font-size: 1.2em;
+    padding: 0 79.4px;
+    }
+
+nav li a:hover {
+    background: #000;
+    color: #fff;
+    }
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: orange;
+    padding: 10px;
+    border-radius: 0 0 9px 9px;   
+}
+
+nav ul li:hover ul {
+    display: block;   
+}
+nav ul li ul li a {
+    padding: 0 8px;
+}
+
+nav ul li ul li {
+    width: 230px;
+    border-radius: 9px;
+}
+
+main {
+    width: 100%;
+    background: #fff;
+    float: left;
+}
+
+h1, h2, h3, h4, p {
+    margin: 10px;
+    padding: 10px;
+}
+
+p {
+   line-height: 1.4; 
+}
+
+.parag1 {
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+   font-style: oblique; 
+}
+
+h5 {
+    font-style: italic;
+    font-size: 1.1em;
+    margin: 20px;
+}
+
+main li {
+    margin-left: 30px;
+}
+
+main img {
+    margin: 20px auto;
+    display: block;
+}
+
+.banner {
+    width: 100%;
+    clear: both;
+    background: #ddd;
+    padding: 10px;
+    border-top: 3px dotted #666;
+    margin-top: 10px;
+}
+
+.banner li {
+    list-style-type: none;
+    font-size: 1.1em;
+}
+
+.banner ul {
+    margin: 30px;
+}
+
+footer {
+    background: #888;
+    height: 50px;
+    clear: both;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+footer li {
+    color: #fff;
+    float: left;
+    list-style-type: none;
+    margin-left: 143px;
+}
+
+footer ul {
+    float: left;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
